@@ -1,0 +1,37 @@
+body {
+  background: rgb(212, 207, 207);
+}
+
+.main-container {
+  position: absolute;
+  top: 30%;
+  left: 45%;
+}
+
+.main-container img {
+  height: 92px;
+  width: 272px;
+  position: absolute;
+}
+
+.main-container input,
+button {
+  margin-top: 90px;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.main-container input {
+  border: 2px solid red;
+  width: 250px;
+}
+
+.main-container button {
+  background-color: rgb(29, 206, 29);
+}
+
+.main-container input :hover,
+:focus {
+  outline: 0;
+  outline-offset: 0;
+}
